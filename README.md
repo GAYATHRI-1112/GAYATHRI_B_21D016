@@ -1,7 +1,7 @@
-# Virtual Classroom Manager
-
 ## GAYATHRI B BE ECE
 **REG NO:21D016**
+# EXERCISE 2
+# Virtual Classroom Manager
 
 **Overview**
 The Virtual Classroom Manager is a terminal-based application designed to manage various aspects of a virtual classroom environment. This includes classroom management, student enrollment, class scheduling, assignment management, and attendance tracking.
