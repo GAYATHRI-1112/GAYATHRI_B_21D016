@@ -45,39 +45,6 @@ Comprehensive error messages for invalid operations.
 Checks for overlapping schedules during class scheduling and student enrollment.
 Validation for correct date and time formats.
 
-**Usage**
-Once the application is running, you can interact with it using the following commands:
-
-help: Display the list of available commands.
-
-add_classroom <class_name>: Add a new classroom.
-
-remove_classroom <class_name>: Remove an existing classroom.
-
-add_student <student_id> <class_name>: Enroll a student in a classroom.
-
-schedule_class <class_name> <start_time> <end_time>: Schedule a class. Time format: yyyy-MM-dd HH:mm.
-
-mark_attendance <student_id> <class_name> <date_time>: Mark attendance for a student. Time format: yyyy-MM-dd HH:mm.
-
-schedule_assignment <class_name> <assignment_details>: Schedule an assignment for a classroom.
-
-submit_assignment <student_id> <class_name> <assignment_number>: Submit an assignment for a class.
-
-list_classrooms: List all classrooms.
-
-list_students [<class_name>]: List all students or students in a specific classroom.
-
-list_schedules: List all class schedules.
-
-list_assignments: List all assignments.
-
-list_submissions: List all assignment submissions.
-
-list_attendances: List all attendance records.
-
-exit: Exit the application.
-
 **Code Structure**
 
 **service.ClassroomService**
@@ -99,3 +66,41 @@ Manages assignment submissions and listing.
 **Main**
 The main entry point of the application.
 Handles user inputs and interacts with services.
+
+# EXERCISE 1
+ # Design Patterns Examples
+   # Behavioral Design Patterns
+   
+**1. Observer Pattern**
+
+Use Case: Stock Price Notifications
+Description: When a stock price changes, all registered investors are notified.
+
+**2. Strategy Pattern**
+
+Use Case: Payment Processing
+Description: Allows users to choose different payment methods (credit card, PayPal) at runtime.
+
+  # Creational Design Patterns
+
+**1. Singleton Pattern**
+
+Use Case: Logger
+Description: Ensures that only one instance of the Logger class exists and provides a global point of access to it.
+
+**2. Factory Pattern**
+
+Use Case: Shape Creation
+Description: Provides an interface for creating different shapes (circle, square) without specifying the exact class of the object that will be created.
+
+  # Structural Design Patterns
+
+ **1. Adapter Pattern**
+ 
+Use Case: Plug Adapter
+Description: Allows an American plug to be used with a European socket by converting the interface of the plug to the socket's interface.
+
+**2. Decorator Pattern**
+
+Use Case: Coffee Customization
+Description: Allows adding extra features (milk, sugar) to a basic coffee dynamically.
